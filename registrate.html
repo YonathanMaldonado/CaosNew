@@ -81,48 +81,37 @@
       <form class="row g-3 needs-validation" novalidate>
         <div class="col-md-4">
           <label for="validationCustom01" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="validationCustom01" value="" placeholder="Escribe tu nombre" placeholder="Ingrese nombre y apellido" minlength="3" maxlength="45" required pattern="[A-Za-z ]{3,45}" title="Solo caracteres 3 y 45 letras.">
-          <div class="valid-feedback">
-          </div>
+          <input type="text" class="form-control" id="validationCustom01" value="" required>
+        
 
         </div>
         <div class="col-md-4">
           <label for="validationCustom02" class="form-label">Apellido</label>
-          <input type="text" class="form-control" id="validationCustom02" value="" placeholder="Escribe tu apellido" placeholder="Ingrese nombre y apellido" minlength="3" maxlength="45" required pattern="[A-Za-z ]{3,45}" title="Solo caracteres 3 y 45 letras.">
-          <div class="valid-feedback">
-          </div>
+          <input type="text" class="form-control" id="validationCustom02" value="" required">
         </div>
 
         <div class="col-md-4">
           <label for="validationCustomUsername" class="form-label">Nombre de usuario</label>
           <div class="input-group has-validation">
             <span class="input-group-text" id="inputGroupPrepend">@</span>
-            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Ingrese nombre y apellido" minlength="3" maxlength="45" required pattern="[A-Za-z ]{3,45}" title="Solo caracteres 3 y 45 letras.">
-            <div class="invalid-feedback">
-            </div>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" re>
           </div>
         </div>
 
         <div class="col-md-6">
-          <label for="validationCustom03" class="form-label">Dirección</label>
-          <input type="text" class="form-control" id="validationCustom03" placeholder="Ingresa tu dirección" required>
-          <div class="invalid-feedback">
-          </div>
+          <label for="validationCustom03" class="form-label">Correo electronico</label>
+          <input type="email" class="form-control" id="validationCustom03" placeholder="Ingresa tu correo" required>
         </div>
 
         <div class="col-md-3">
           <label for="validationCustom04" class="form-label">Ingresa una Contraseña</label>
           <input type="password" class="form-control" id="validationCustom05" placeholder="Contraseña" required>
           </select>
-          <div class="invalid-feedback">
-          </div>
         </div>
 
         <div class="col-md-3">
           <label for="validationCustom05" class="form-label">Confirma contraseña</label>
           <input type="password" class="form-control" id="validationCustom05" placeholder="Contraseña" required>
-          <div class="invalid-feedback">
-          </div>
         </div>
 
         <div class="col-12">
@@ -131,8 +120,6 @@
             <label class="form-check-label" for="invalidCheck">
               Aceptar terminos y condiciones
             </label>
-            <div class="invalid-feedback">
-            </div>
           </div>
         </div>
 
