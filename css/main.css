@@ -64,4 +64,9 @@ color: #36A0FF;
     #intro { 
         width: 90% !important;
     }
+
+    .servicio-fila{
+        width: 100%;
+        text-align: center;
+    }
 }
