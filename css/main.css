@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    overflow-x: hidden;
+}
+
+/*-----------------MENU----------------*/
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*-----------------SLIDER----------------*/
+
+#noticias a{
+    font-size: 30px;
+    text-decoration: none;
+    color: yellow;
+    border: solid 5px teal;
+    border-radius: 20px;
+}
+
+#noticias p{
+    font-size: 20px;
+    color: tomato;
+}
+
+.carousel-item{
+    max-height: 39rem;
+}
+
+/*-----------------FORMULARIO----------------*/
+
+#form-ingreso h2{
+    color: teal;
+    font-size: 30px;
+}
+
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+    
+.bigicon {
+font-size: 35px;
+color: #36A0FF;
+}
+
+
+
+
+
+
+@media (max-widht: 768px) {
+    #intro { 
+        width: 90% !important;
+    }
+}

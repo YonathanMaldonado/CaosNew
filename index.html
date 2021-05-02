@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Caos News</title>
+  </head>
+  <body>
+    <header class="container-fluid bg-info text-white d-flex justify-content-center">
+      <div >
+        <img src="img/CaosNews.png" class="img-fluid col-12" alt="" >
+      </div>
+      
+    </header>
+    <main>
+    <!------------------------>
+    <!--Encabezado-->
+    <!------------------------>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info p-3" id="menu">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <span class="text-light fs-4"> Caos News </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ingresar.html">Ingresar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registrate.html">Registrate</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categoria
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Nacionales</a></li>
+                <li><a class="dropdown-item" href="#">Internacionales</a></li>
+                <li><a class="dropdown-item" href="#">Educación</a></li>
+                <li><a class="dropdown-item" href="#">Politica</a></li>
+                <li><a class="dropdown-item" href="#">Deportes</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">¡Ayudanos!</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contáctanos</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="Correo" placeholder="Correo electronico" aria-label="Correo electronico">
+            <button class="btn btn-outline-light" type="submit">Suscribete!</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!------------------------>
+    <!--Slider-->
+    <!------------------------>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" id="noticias">
+          <img src="img/slider/coronavirus.png" class="d-block w-100" alt="coronavirus">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://www.gob.cl/coronavirus/cifrasoficiales/">CORONAVIRUS EN CHILE, RESPORTE DIARIO</a>
+            <p>DATOS DE COMO PROGRESA EL CORONAVIRUS EN NUESTRO PAÍS</p>
+          </div>
+        </div>
+        <div class="carousel-item" id="noticias">
+          <img src="img/slider/BonoClaseMedia.png" class="d-block w-100" alt="BonoClaseMedia">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://homer.sii.cl/info.html">BONO CLASE MEDIA</a>
+            <p>REVISE SI PUEDE SOLICITAR SOLICITAR EL BONO CLASE MEDIA</p>
+          </div>
+        </div>
+        <div class="carousel-item" id="noticias">
+          <img src="img/slider/Stres.png" class="d-block w-100" alt="Stres">
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://www.elmostrador.cl/agenda-pais/2020/12/17/colapso-emocional-de-la-educacion-en-chile-como-abordar-el-proximo-ano/">EL ESTRES Y LAS CLASES ONLINE</a>
+            <p>EL ESTRES QUE GENERA EL ENCIERRO Y LAS CLASES ONLINE EN LOS ESTUDIANTES.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+      <h1 class="p-3 fs-2 border-top border-3"> Una pagina de noticias independiente <span class="text-primary"><br>Colectivo de estudiantes </span></h1>
+      <p class="p-3 fs-4"><span class="text-primary"> Periodico online </span> conformado por un grupo de estudiantes dedicados al ejercicio y la promoción de los derechos a informar y a la libre expresión, 
+        mediante la generación y divulgación de contenidos dirigidos a la formación de ciudadanos felices.</p>
+    </section>
+    <!------------------------>
+    <!--Formulario de budqueda-->
+    <!------------------------>
+    <section class="w-50 mx-auto text-center pt-5 pb-5" id="form-ingreso">
+      <label for="buscar" class="form-label">Voy a tener suerte?</label>
+        <input type="search" id="buscar" class="form-control" aria-describedby="Buscar">
+      <div id="passwordHelpBlock" class="form-text">
+      </div>
+      <button type="submit" class="btn btn-primary">Buscar</button>
+    </section>
+  </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+  </body>
+</html>
