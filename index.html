@@ -117,7 +117,7 @@
     <!------------------------>
     <section class="w-50 mx-auto text-center pt-5 pb-5" id="form-ingreso">
       <label for="buscar" class="form-label">Voy a tener suerte?</label>
-        <input type="search" id="buscar" class="form-control" aria-describedby="Buscar">
+        <input type="search" id="buscar" class="form-control" aria-describedby="Buscar" placeholder="Noticia, Articulo, Periodista, Genero" minlength="10" maxlength="45" required pattern="[A-Za-z ]{10,45}" title="Solo caracteres 3 y 45 letras.">
       <div id="passwordHelpBlock" class="form-text">
       </div>
       <button type="submit" class="btn btn-primary">Buscar</button>
