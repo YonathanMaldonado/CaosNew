@@ -59,7 +59,7 @@ color: #36A0FF;
 
 
 
-
+/*-----------------MEDIA QUERIES----------------*/
 @media (max-widht: 768px) {
     #intro { 
         width: 90% !important;
@@ -67,6 +67,15 @@ color: #36A0FF;
 
     .servicio-fila{
         width: 100%;
+        text-align: center;
+    }
+}
+
+/*-----------------MEDIA QUERIES----------------*/
+@MEDIA(max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
         text-align: center;
     }
 }
