@@ -1,0 +1,40 @@
+#h3 {
+    text-align: center;
+    font-family: Cambria;
+    margin: 20px;
+}
+
+#p {
+    text-align: right;
+    font-family: Cambria;
+    margin: 20px;
+}
+
+#intro .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#intro img {
+    width: 250px;
+    height: 250px;
+    border: solid 7px rgb(0, 0, 0);
+    object-fit: cover;
+    border-radius: 50%;
+    transition: all 0.5s;
+    margin: 60px;
+}
+
+#intro a img:active {
+    border-radius: 0;
+    transform: scale(1.1);
+}
+
+.noticiasimg article {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 500px;
+    margin-top: 10px;
+}
