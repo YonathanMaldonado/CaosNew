@@ -154,8 +154,59 @@ color: #36A0FF;
     border: none;
     border-radius: 3px;
     cursor: pointer;
+    transition: .1s ease all;
 }
 
+
+.formulario-btn:hover{
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 1);
+}
+
+.formulario-mensaje-exito{
+    font-size: 14px;
+    color: #119200;
+    display: none;
+}
+
+.formulario-mensaje-exito-activo{
+    display: block;
+}
+
+/*-----------------Estilos para validación----------------*/
+.formulario-grupo-correcto .formulario-validacion-estado{
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.formulario-grupo-incorrecto .form-label{
+    color: #bb2929;
+}
+
+.formulario-grupo-incorrecto .formulario-validacion-estado{
+    color: #bb2929;
+    opacity: 1;
+}
+
+.formulario-grupo-incorrecto .formulario-input{
+    border: 3px solid #bb2929;
+}
+
+/*-----------------MEDIA QUERIES----------------*/
+@media screen and (max-width: 768px){
+    .formulario-registro{
+        grid-template-columns: 1fr;
+    }
+
+    .formulario-grupo-terminos,
+    .formulario-mensaje,
+    .formulario-grupo-btn-enviar{
+        grid-column: span 1;
+    }
+
+    .formulario-btn{
+        width: 100%;
+    }
+}
 
 /*-----------------MEDIA QUERIES----------------*/
 @media (max-widht: 768px) {
