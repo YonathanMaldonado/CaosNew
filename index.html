@@ -192,7 +192,27 @@
       </script>
       <div id="valor-utm"></div>
       </div>
-    </section>
+
+      <!------------------------>
+      <!--Consumir un Servicio Web pero con jquery-->
+      <!--VALOR Bitcoin-->
+      <!------------------------>
+    
+      <div class="pt-1">
+        <input class="btn btn-primary w-25" type="button" value="Valor Bitcoin" id="btnRecuperaBitcoin">
+        <script>
+          $(document).ready(function() {
+              $("#btnRecuperaBitcoin").click(function() {
+                  $.get("https://mindicador.cl/api/bitcoin",function(data) {
+                     var bitcoin = data.serie[0].valor;
+                     $("#valor-bitcoin").html(bitcoin);
+                  });
+              })
+          })
+        </script>
+        <div id="valor-bitcoin"></div>
+        </div>
+      </section>
 
 
 
