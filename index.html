@@ -152,27 +152,7 @@
       </script>
       <div id="valor-dolar"></div>
       </div>
-      <!------------------------>
-      <!--Consumir un Servicio Web pero con jquery-->
-      <!--VALOR UF-->
-      <!------------------------>
-    
-      <div class="pt-1">
-      <input class="btn btn-primary w-25" type="button" value="Valor UF" id="btnRecuperaUf">
-      <script>
-        $(document).ready(function() {
-            $("#btnRecuperaUf").click(function() {
-                $.get("https://mindicador.cl/api/uf",function(data) {
-                   var uf = data.serie[0].valor;
-                   $("#valor-uf").html(uf);
-                });
-            })
-        })
-      </script>
-      <div id="valor-uf"></div>
-      </div>
-    
-    
+      
       <!------------------------>
       <!--Consumir un Servicio Web pero con jquery-->
       <!--VALOR UTM-->
